@@ -46,6 +46,6 @@ a.addEventListener("click", nombreEtiqueta);
 
 function nombreEtiqueta(evento) {
   evento.preventDefault();
-  //evento.stopPropagation();
+  evento.stopPropagation();
   console.log(this.tagName);
 }
