@@ -41,7 +41,7 @@ const a = document.querySelector("a");
 html.addEventListener("click", nombreEtiqueta);
 body.addEventListener("click", nombreEtiqueta);
 ul.addEventListener("click", nombreEtiqueta, true);
-li.addEventListener("click", nombreEtiqueta, true);
+li.addEventListener("click", nombreEtiqueta, false);
 a.addEventListener("click", nombreEtiqueta);
 
 function nombreEtiqueta(evento) {
